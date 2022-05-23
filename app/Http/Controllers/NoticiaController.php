@@ -19,7 +19,7 @@ class NoticiaController extends Controller
 
     public function create()
     {
-
+        return view('noticias.create');
     }
 
     public function store()
